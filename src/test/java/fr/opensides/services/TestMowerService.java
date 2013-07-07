@@ -16,7 +16,7 @@ import fr.opensides.domain.repository.EOrientation;
 import fr.opensides.services.impl.InputsDigesterImpl;
 import fr.opensides.services.impl.MowerServiceImpl;
 
-public class MowerTests {
+public class TestMowerService {
 
 	MowerService mowerService;
 	InputsDigester digester;
@@ -37,7 +37,7 @@ public class MowerTests {
 	public void testAllFunctionalitiesWithGoodInputs() throws Exception {
 
 		// loadfile:
-		List<Input> inputs = digester.digestInputs("/Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt");
+		List<Input> inputs = digester.digestInputs("/Users/opensides/git/MowerTest/src/test/resources/mowerInput.txt");
 
 		// check file was digest correctly:
 		assertNotNull(inputs);
