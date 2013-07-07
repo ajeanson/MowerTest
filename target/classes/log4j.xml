@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<!--==================================================================-->
+	<!--							APPENDERS	 						  -->
+	<!--==================================================================-->
+	
+	<!-- CONSOLE -->
+	<appender name="consoleAppender" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{HH:mm:ss} %5p [%t] (%c{5}:%L) - %X{CALLID} - %m%n" />
+		</layout>
+	</appender>
+
+	<!--MAIN LOG -->
+	<appender name="mainAppender"
+		class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="logs/main.log" />
+		<param name="Append" value="true" />
+		<param name="DatePattern" value="'_'yyyy-MM-dd" />
+		<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d %5p [%t] (%c{2}:%L) - %X{SESSIONID} - %m%n" />
+		</layout>
+	</appender>
+
+	<!--==================================================================-->
+	<!--							LOGGERS		 						  -->
+	<!--==================================================================-->
+	<logger name="consoleLogger">
+		<level value="DEBUG" />
+		<appender-ref ref="consoleAppender" />
+	</logger>
+
+	<logger name="mainLogger">
+		<level value="DEBUG" />
+		<appender-ref ref="mainAppender" />
+	</logger>
+	
+	
+	<!--==================================================================-->
+	<!--					DEFINE PACKAGE LEVEL 						  -->
+	<!--==================================================================-->
+	
+	<!-- Main package-->
+	<category name="fr.opensides">
+		<level value="DEBUG" />
+	</category>
+
+	<!--==================================================================-->
+	<!--							ROOT CONFIG	 						  -->
+	<!--==================================================================-->
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="consoleAppender" />
+		<appender-ref ref="mainAppender" />
+	</root>
+
+</log4j:configuration>

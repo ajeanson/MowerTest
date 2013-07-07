@@ -1,0 +1,2458 @@
+2013-07-07 21:17:54,191  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:17:54,267 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:17:54,268 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLineGAGAGAGAA
+2013-07-07 21:17:54,273  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:17:54,275 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:17:54,275 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,276 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:17:54,276 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,276 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:17:54,276 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,277 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:17:54,277 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,277 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,278 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLineAADAADADDA
+2013-07-07 21:17:54,278  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:17:54,278 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,281 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,281 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:17:54,282 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,282 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,282 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:17:54,282 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,283 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:17:54,283 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:17:54,283 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:17:54,286  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:17:54,286  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,286  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:17:54,287  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,287  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:17:54,287  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,288  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:17:54,288  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,288  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:17:54,288  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,289  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:17:54,289  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,289  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:17:54,290  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,290  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,290  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,291  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,291  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,291  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,292  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,292  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:17:54,292  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,292  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:17:54,293  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,293  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:17:54,293  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,294  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:17:54,294  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,294  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:17:54,294  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,295  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:17:54,295  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,295  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:17:54,296  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:17:54,296  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,296  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,297  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,297  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:17:54,297  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:17:54,297  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,397  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:18:42,416 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:18:42,417 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLineGAGAGAGAA
+2013-07-07 21:18:42,420  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:18:42,421 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:18:42,421 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,422 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:18:42,422 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,422 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:18:42,422 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,423 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:18:42,423 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,423 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,424 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLineAADAADADDA
+2013-07-07 21:18:42,424  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:18:42,424 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,427 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,427 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:18:42,427 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,427 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,428 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:18:42,428 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,428 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:18:42,428 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:18:42,428 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:18:42,431  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:18:42,431  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,431  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:18:42,432  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,432  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:18:42,432  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,432  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:18:42,432  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,433  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:18:42,433  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,433  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:18:42,433  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,433  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:18:42,434  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,434  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,434  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,434  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,434  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,435  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,435  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,435  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:18:42,436  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,436  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:18:42,436  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,437  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:18:42,437  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,437  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:18:42,437  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,438  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:18:42,438  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,438  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:18:42,438  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,438  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:18:42,439  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:18:42,439  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,439  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,439  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,439  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:18:42,440  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:18:42,440  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,040  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:19:35,069 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:19:35,069 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLineGAGAGAGAA
+2013-07-07 21:19:35,081  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:19:35,084 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:19:35,084 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,084 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:19:35,085 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,085 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:19:35,085 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,085 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:19:35,086 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,086 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,087 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLineAADAADADDA
+2013-07-07 21:19:35,087  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:19:35,087 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,090 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,090 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:19:35,091 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,091 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,091 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:19:35,091 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,092 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:19:35,092 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:19:35,092 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:19:35,094  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:19:35,095  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,095  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:19:35,095  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,096  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:19:35,096  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,096  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:19:35,096  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,096  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:19:35,097  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,097  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:19:35,097  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,097  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:19:35,098  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,098  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,098  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,098  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,099  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,099  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,099  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,099  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:19:35,100  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,100  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:19:35,100  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,100  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:19:35,101  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,101  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:19:35,101  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,101  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:19:35,102  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,102  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:19:35,102  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,102  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:19:35,103  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:19:35,103  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,103  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,104  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,104  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:19:35,104  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:19:35,104  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,035  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:20:28,056 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:20:28,057 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLineGAGAGAGAA
+2013-07-07 21:20:28,060  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:20:28,061 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:20:28,062 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,062 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:20:28,062 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,063 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:20:28,063 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,063 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:20:28,064 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,064 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,064 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLineAADAADADDA
+2013-07-07 21:20:28,065  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:20:28,065 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,069 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,069 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:20:28,069 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,070 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,070 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:20:28,070 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,070 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:20:28,071 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:20:28,071 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:20:28,073  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:20:28,073  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,074  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:20:28,074  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,074  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:20:28,075  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,075  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:20:28,075  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,076  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:20:28,076  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,076  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:20:28,077  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,077  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:20:28,077  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,077  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,078  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,078  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,078  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,079  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,079  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,079  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:20:28,080  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,080  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:20:28,080  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,081  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}
+2013-07-07 21:20:28,081  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,081  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:20:28,081  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,082  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:20:28,082  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,082  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:20:28,083  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,083  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}
+2013-07-07 21:20:28,083  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:20:28,083  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,084  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,084  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,084  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:20:28,085  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:20:28,085  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 4, 
+"orientation" : N"
+}
+2013-07-07 21:28:04,458  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:28:04,480 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:28:04,481 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLineAADAADADDA
+2013-07-07 21:28:04,484  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:28:04,485 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,486 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,486 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:28:04,486 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,486 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,486 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:28:04,487 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,487 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:28:04,487 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:28:04,487 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:28:04,489  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:28:04,490  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,492  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:28:04,493  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,493  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:28:04,493  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:28:04,494  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:28:04,494  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,494  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:28:04,494  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,494  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:28:04,495  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:28:04,495  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:28:04,495  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,495  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:28:04,496  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:28:04,497  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:36:52,962  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:36:52,983 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:36:52,983 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLine:GAGAGAGAA
+2013-07-07 21:36:52,987  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:36:52,989 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:36:52,989 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,990 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:36:52,990 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,990 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:36:52,991 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,991 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:36:52,991 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,992 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,992 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLine:AADAADADDA
+2013-07-07 21:36:52,993  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:36:52,993 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,996 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,997 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:36:52,997 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,997 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,998 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:36:52,998 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:52,998 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:36:52,998 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:36:52,999 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:36:53,002  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:36:53,002  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:36:53,002  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:36:53,003  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:36:53,003  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:36:53,003  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:36:53,004  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:36:53,004  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:36:53,004  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:36:53,005  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:36:53,005  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:36:53,005  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:36:53,006  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:36:53,006  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:36:53,006  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:36:53,006  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:36:53,007  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:36:53,007  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:36:53,007  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:36:53,008  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,294  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:38:55,318 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:38:55,318 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLine:GAGAGAGAA
+2013-07-07 21:38:55,321  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:38:55,322 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:38:55,322 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,323 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:38:55,323 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,323 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:38:55,324 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,324 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:38:55,324 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,324 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,325 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLine:AADAADADDA
+2013-07-07 21:38:55,325  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:38:55,326 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,329 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,329 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:38:55,329 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,329 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:38:55,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:38:55,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:38:55,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:38:55,332  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:38:55,332  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:38:55,333  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:38:55,333  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,333  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:38:55,334  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:38:55,334  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:38:55,334  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,334  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:38:55,334  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:38:55,335  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,335  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,335  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,335  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:38:55,336  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,336  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,336  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,336  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,337  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,337  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,337  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:38:55,338  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,338  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,338  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,339  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,339  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:38:55,339  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:38:55,339  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,340  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:38:55,340  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,340  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:38:55,340  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:38:55,341  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:38:55,341  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,341  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:38:55,341  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:38:55,341  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:38:55,342  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:38:55,342  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,342  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:38:55,342  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:38:55,342  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:04,911  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:40:04,936 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:40:04,936 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLine:GAGAGAGAA
+2013-07-07 21:40:04,940  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:40:04,941 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:04,942 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,942 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:04,942 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,943 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:04,943 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,943 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:04,944 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,944 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,945 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLine:AADAADADDA
+2013-07-07 21:40:04,945  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:40:04,945 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,949 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,949 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:04,950 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,950 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,950 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:04,951 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,951 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:04,951 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:04,952 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:04,954  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:40:04,954  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:11,355  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:40:11,356  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:17,012  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:40:17,012  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:18,311  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:40:18,312  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:19,640  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:40:19,641  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:20,844  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:20,845  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,309  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:40:28,326 DEBUG [main] (impl.InputsDigesterImpl:34) -  - load first line (55): lawnUpperRightCornerX:5/lawnUpperRightCornerY:5
+2013-07-07 21:40:28,327 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:12N/controlsLine:GAGAGAGAA
+2013-07-07 21:40:28,329  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: GAGAGAGAA
+2013-07-07 21:40:28,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:28,330 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,331 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:28,331 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,331 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:28,332 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,332 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :G
+2013-07-07 21:40:28,332 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,332 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,333 DEBUG [main] (impl.InputsDigesterImpl:39) -  - load a mover  - positionLine:33E/controlsLine:AADAADADDA
+2013-07-07 21:40:28,333  INFO [main] (impl.InputsDigesterImpl:61) -  - Load a control line: AADAADADDA
+2013-07-07 21:40:28,334 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,337 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,337 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:28,337 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,338 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,338 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:28,338 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,339 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:28,339 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :D
+2013-07-07 21:40:28,339 DEBUG [main] (impl.InputsDigesterImpl:70) -  - OK add control :A
+2013-07-07 21:40:28,341  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:40:28,341  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:28,342  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:40:28,342  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,342  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}
+2013-07-07 21:40:28,342  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:28,342  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:40:28,343  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,343  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:40:28,343  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:28,343  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,343  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 0, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,344  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,344  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:G
+2013-07-07 21:40:28,344  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:40:28,344  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,344  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}
+2013-07-07 21:40:28,345  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 1, 
+"y" : 2, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,345  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:40:28,345  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 1, 
+"y" : 3, 
+"orientation" : N"
+}
+2013-07-07 21:40:28,346  INFO [main] (impl.MowerServiceImpl:18) -  - Start a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}
+2013-07-07 21:40:28,346  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 3, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,346  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,346  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,347  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,347  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:40:28,347  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}
+2013-07-07 21:40:28,347  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 3, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,348  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}
+2013-07-07 21:40:28,348  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 2, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,348  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}
+2013-07-07 21:40:28,348  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : S"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:40:28,349  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:40:28,349  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,349  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}
+2013-07-07 21:40:28,350  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : W"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:40:28,350  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}
+2013-07-07 21:40:28,350  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : N"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:D
+2013-07-07 21:40:28,350  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,351  INFO [main] (impl.MowerServiceImpl:35) -  - Move a mower: mower:{ 
+"position" : { 
+"x" : 4, 
+"y" : 1, 
+"orientation" : E"
+}"
+}/lawn:{ 
+"xMax" : 5, 
+"yMax" : 5"
+}/control:A
+2013-07-07 21:40:28,351  INFO [main] (impl.MowerServiceImpl:50) -  - Mower has finish its move. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,351  INFO [main] (impl.MowerServiceImpl:22) -  - Mower has finish its course. New position: { 
+"x" : 5, 
+"y" : 1, 
+"orientation" : E"
+}
+2013-07-07 21:40:28,355  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file badfile
+2013-07-07 21:40:28,357 ERROR [main] (impl.InputsDigesterImpl:43) -  - Error while opening file badfile
+2013-07-07 21:46:16,610  INFO [main] (impl.InputsDigesterImpl:21) -  - disgest file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
+2013-07-07 21:46:16,622 ERROR [main] (impl.InputsDigesterImpl:43) -  - Error while opening file /Users/opensides/dev/workspaces/w-current/MvnStrategy/src/test/resources/mowerInput.txt
